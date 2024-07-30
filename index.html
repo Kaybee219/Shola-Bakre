@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olushola Bakre - Project Scheduler</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/02daeb368a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/BAKRE__3_-removebg-preview.png" class="logo">
+            <ul id = "sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Project scheduler</p> 
+          <h1>Hi, I'm <span>Olushola Bakre</span> <br> Currently in Texas</h1> 
+        </div>
+    </div>
+ </div> 
+ <!--------------------about------------------->
+ <div id = "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1711424279324.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>He was after the truth. At least, that's what he told himself.
+                He believed it, but any rational person on the outside could see he was lying to himself.
+                It was apparent he was really only after his own truth that he'd already decided and was after this truth because the facts didn't line up with the truth he wanted.
+                So he continued to tell everyone he was after the truth oblivious to the real truth sitting right in front of him.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">experience</p>
+                <p class="tab-links" onclick="opentab('education')">education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br> Designing web/app interfaces</li>
+                    <li><span>web development</span><br> web app development</li>
+                    <li><span>App Development</span><br> building apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br> Designing web/app interfaces</li>
+                    <li><span>web development</span><br> web app development</li>
+                    <li><span>App Development</span><br> building apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>UI/UX</span><br> Designing web/app interfaces</li>
+                    <li><span>web development</span><br> web app development</li>
+                    <li><span>App Development</span><br> building apps</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- -------------services---------------------  -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>Service 1</h2>
+                <p> description of service</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>Service 2</h2>
+                <p> description of service</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>Service 3</h2>
+                <p> description of service</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- ------------------portfolio------------- -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>work 1</h2>
+                <p> description of work</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>work 1</h2>
+                <p> description of work</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-bars-progress"></i>
+                <h2>work 1</h2>
+                <p> description of work</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+<!-- ------------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-share"></i> Olusholabakre@Gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 832-929-3657</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shola-bakre-857153131"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/shola-bakre-857153131"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/shola-bakre-857153131"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/shola-bakre-857153131"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/dad.png" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">   
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder = "your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ kunmi Bakre. made with <i class="fa-solid fa-heart"></i> by easy Tutorials</p>
+
+    </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname)
+{
+    for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0"
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px"
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxR3aok43zjRRCfSL-ZV5TzgtukYnSbKRf1EXXdgxW6LFE7tmwluAi8C285tHLC0Y59/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
